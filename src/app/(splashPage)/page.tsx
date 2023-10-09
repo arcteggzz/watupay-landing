@@ -1,6 +1,9 @@
+/* eslint-disable @next/next/no-img-element */
+
 "use client";
 
 import styles from "./page.module.scss";
+import watupay_icon from "./watupay_icon.png";
 import { useEffect } from "react";
 import { routePaths } from "@/utils";
 import { useRouter } from "next/navigation";
@@ -16,8 +19,12 @@ export default function SplashPage() {
   }, []);
 
   return (
-    <main className={styles.main}>
-      <p>Splash Page</p>
+    <main className={styles.SplashPage}>
+      <img
+        src={watupay_icon.src}
+        alt="watupay logo icon"
+        className={styles.splashImage}
+      />
     </main>
   );
 }
