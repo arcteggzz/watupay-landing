@@ -1,0 +1,11 @@
+@use "../../../assets/styles/" as *;
+
+.HomePage {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  border: 1px red solid;
+}
