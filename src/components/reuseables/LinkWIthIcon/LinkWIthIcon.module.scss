@@ -1,7 +1,7 @@
 @use "../../../assets/styles/" as *;
 
 .LinkWIthIcon_light {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   border-radius: 40px;
   background: #e1edff;
@@ -20,7 +20,7 @@
 }
 
 .LinkWIthIcon_dark {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   border-radius: 40px;
   background: #11284c;
