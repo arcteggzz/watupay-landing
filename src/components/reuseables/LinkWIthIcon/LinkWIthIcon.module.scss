@@ -1,0 +1,59 @@
+@use "../../../assets/styles/" as *;
+
+.LinkWIthIcon_light {
+  display: flex;
+  align-items: center;
+  border-radius: 40px;
+  background: #e1edff;
+  box-shadow: 0px 16px 24px 0px rgba(48, 49, 51, 0.1),
+    0px 0px 1px 0px rgba(48, 49, 51, 0.05);
+
+  height: 48px;
+  padding-left: 24px;
+  column-gap: 16px;
+  text-decoration: none;
+}
+
+.LinkWIthIcon_dark {
+  display: flex;
+  align-items: center;
+  border-radius: 40px;
+  background: #11284c;
+  box-shadow: 0px 16px 24px 0px rgba(48, 49, 51, 0.1),
+    0px 0px 1px 0px rgba(48, 49, 51, 0.05);
+
+  height: 48px;
+  padding-left: 24px;
+  column-gap: 16px;
+  text-decoration: none;
+}
+
+.linkText_light {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.linkText_dark {
+  color: #11284c;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.link_icon {
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+}

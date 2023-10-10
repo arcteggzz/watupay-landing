@@ -1,0 +1,24 @@
+@use "../../../../assets/styles/" as *;
+
+.CreateContest {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 0 0 52px 0;
+  white-space: nowrap; /* Prevent text from wrapping */
+  overflow: hidden;
+
+  h2 {
+    color: #395074;
+    font-family: Poppins;
+    font-size: 200px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 200px; /* 100% */
+    letter-spacing: -10px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    text-align: start;
+  }
+}
