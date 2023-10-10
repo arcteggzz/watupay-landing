@@ -3,6 +3,7 @@ import styles from "../(styles)/Testimonial.module.scss";
 import dummy_testimonials from "./(images)/testimonial_dummy.png";
 import previous_icon from "./(images)/previous_icon.png";
 import next_icon from "./(images)/next_icon.png";
+import { HaloDisplay } from "@/components/reuseables";
 
 const Testimonials = () => {
   return (
@@ -21,6 +22,8 @@ const Testimonials = () => {
             <img src={next_icon.src} alt="next button" />
           </button>
         </div>
+
+        <HaloDisplay />
       </section>
     </>
   );
