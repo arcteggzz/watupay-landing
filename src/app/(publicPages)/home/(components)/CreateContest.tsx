@@ -1,7 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import styles from "../(styles)/CreateContest.module.scss";
-import { LinkWIthIcon } from "@/components/reuseables";
-import { HaloDisplay } from "@/components/reuseables";
+import { LinkWIthIcon, HaloDisplay } from "@/components/reuseables";
 
 const CreateContest = () => {
   return (

@@ -31,6 +31,11 @@ const Features = () => {
         </div>
 
         <div className={styles.features_two}>
+          <img
+            src={features_2.src}
+            alt="features one"
+            className={styles.mobile_image}
+          />
           <div className={styles.left_text}>
             <h5>Easily view real time result and export from our dashboard</h5>
             <p>

@@ -5,16 +5,18 @@ import {
   SecurityAudit,
   CreateContest,
   Features,
+  Hero,
+  OngoingContests,
 } from "./(components)";
 
 const HomePage = () => {
   return (
     <div className={styles.HomePage}>
-      {/* <Hero /> */}
+      <Hero />
       <OrganizersList />
       <Features />
       <SecurityAudit />
-      {/* <OngoingContests /> */}
+      <OngoingContests />
       <Testimonials />
       <CreateContest />
     </div>
