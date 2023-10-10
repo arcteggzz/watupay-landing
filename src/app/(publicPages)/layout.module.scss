@@ -5,6 +5,10 @@
   justify-content: center;
   width: 100vw;
   min-height: 100vh;
+  background: var(
+    --watu-blue-gradient,
+    linear-gradient(270deg, #192b58 0%, #070421 100%)
+  );
 
   .main_container {
     display: flex;

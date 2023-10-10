@@ -2,21 +2,150 @@
 
 .Footer {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
+  row-gap: 74px;
   width: 100%;
-  padding: pixRem(20) pixRem(0);
-  height: pixRem(88);
+  padding: pixRem(88) pixRem(124);
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    color: #e1edff;
+  }
 
   @include md() {
-    padding: pixRem(18) pixRem(0);
+    padding: pixRem(32) pixRem(80);
+    row-gap: 40px;
   }
   @include sm() {
-    padding: pixRem(12) pixRem(20);
+    padding: pixRem(28) pixRem(20);
+    row-gap: 40px;
   }
 
-  p {
-    color: black;
-    text-align: center;
+  .footer_top {
+    display: flex;
+    justify-content: space-between;
+
+    @include sm() {
+      flex-direction: column;
+      justify-content: flex-start;
+      row-gap: 80px;
+    }
+
+    .top_left {
+      display: flex;
+      flex-direction: column;
+      row-gap: 20px;
+
+      img {
+        width: 106px;
+        height: auto;
+
+        @include sm() {
+          width: 92px;
+        }
+      }
+
+      p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 163.4%;
+        width: 360px;
+
+        @include sm() {
+          width: 90%;
+        }
+      }
+    }
+
+    .top_middle {
+      display: flex;
+      flex-direction: column;
+      row-gap: 20px;
+
+      h5 {
+        font-size: 16px;
+        font-weight: 900;
+        line-height: 24px;
+      }
+
+      .middle_links {
+        display: flex;
+        flex-direction: column;
+        row-gap: 2px;
+
+        p {
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 163.4%;
+        }
+      }
+    }
+
+    .top_right {
+      display: flex;
+      flex-direction: column;
+      row-gap: 20px;
+
+      h5 {
+        font-size: 16px;
+        font-weight: 900;
+        line-height: 24px;
+      }
+
+      .right_links {
+        display: flex;
+        flex-direction: column;
+        row-gap: 2px;
+
+        p {
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 163.4%;
+        }
+      }
+    }
+  }
+
+  .footer_bottom {
+    display: flex;
+    justify-content: space-between;
+
+    @include sm() {
+      flex-direction: column;
+      justify-content: flex-start;
+      row-gap: 40px;
+    }
+
+    p {
+      width: 400px;
+
+      @include sm() {
+        width: 90%;
+      }
+    }
+
+    .bottom_right {
+      display: flex;
+      flex-direction: column;
+      row-gap: 8px;
+      padding-right: 80px;
+
+      @include sm() {
+        padding-right: 40px;
+      }
+      @include sm() {
+        padding-right: 0;
+      }
+
+      img {
+        width: 144px;
+        height: auto;
+      }
+    }
   }
 }
