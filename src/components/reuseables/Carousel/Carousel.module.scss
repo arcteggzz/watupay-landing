@@ -1,0 +1,54 @@
+@use "../../../assets/styles/" as *;
+
+.carousel_slider_container {
+  width: 100%;
+  z-index: 10;
+}
+
+.Carousel {
+  display: flex;
+  width: 200vw;
+
+  animation-name: slide;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  z-index: 10;
+
+  @include sm() {
+    width: 800vw;
+    animation-duration: 10s;
+    animation-name: slide_mobile;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100vw);
+  }
+}
+
+@keyframes slide_mobile {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-400vw);
+  }
+}
+
+.single_item_container {
+  width: 25vw;
+  height: 232px;
+  margin: 0 32px 0 0;
+  z-index: 10;
+
+  @include sm() {
+    width: 100vw;
+  }
+}
