@@ -1,1 +1,1 @@
-// export { default as OverviewActivity } from "./OverviewActivity";
+export { default as OngoingContest } from "./OngoingContest";
