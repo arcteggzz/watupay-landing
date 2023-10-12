@@ -1,0 +1,97 @@
+@use "../../../assets/styles/" as *;
+
+.OngoingContest {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #fff;
+  width: 228px;
+  border-radius: 20px;
+  padding: 2px 2px 0 2px;
+  overflow: hidden;
+  z-index: 10;
+
+  .banner_image {
+    width: 100%;
+    max-height: 140px;
+    border-radius: 20px 20px 0 0;
+  }
+
+  .text_contianer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: 8px;
+    width: 100%;
+    min-height: 108px;
+    padding: 16px;
+
+    .name {
+      color: #231a23;
+      font-family: Poppins;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 24px; /* 150% */
+      letter-spacing: -0.48px;
+    }
+
+    .decription {
+      color: #868686;
+      font-family: Poppins;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 16px; /* 133.333% */
+      letter-spacing: -0.24px;
+    }
+  }
+
+  .card_bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 8px 16px 16px 16px;
+    background: #e1edff;
+    column-gap: 8px;
+
+    .details {
+      color: #231a23;
+      font-family: Poppins;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 20px; /* 142.857% */
+      letter-spacing: -0.42px;
+      text-wrap: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      column-gap: 4px;
+      height: 36px;
+      border: none;
+      padding: 8px 12px;
+      border-radius: 8px;
+      background: #11284c;
+      cursor: pointer;
+
+      .vote {
+        color: #fff;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px; /* 142.857% */
+        letter-spacing: -0.42px;
+        cursor: pointer;
+      }
+    }
+  }
+}
