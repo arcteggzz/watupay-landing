@@ -48,7 +48,11 @@ const Features = () => {
 
         <Link href={"#"} className={styles.link_container}>
           <h6 className={styles.link_text}>Create Contest</h6>
-          <img src={view_icon.src} alt="" className={styles.link_icon} />
+          <img
+            src={view_icon.src}
+            alt="view icon"
+            className={styles.link_icon}
+          />
         </Link>
       </section>
     </>
