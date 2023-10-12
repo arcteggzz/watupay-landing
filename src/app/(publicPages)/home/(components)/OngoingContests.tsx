@@ -88,7 +88,7 @@ const OngoingContests = () => {
 
         <Link href={"#"} className={styles.view_contest}>
           <p>View all contest</p>
-          <img src={right_arrow.src} alt="" />
+          <img src={right_arrow.src} alt="view icon" />
         </Link>
 
         <HaloDisplay top={80} />

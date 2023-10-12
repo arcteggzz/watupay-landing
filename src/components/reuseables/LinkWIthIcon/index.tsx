@@ -26,7 +26,7 @@ const LinkWIthIcon = ({ variant = "dark", linkText }: LinkWIthIconType) => {
         >
           {linkText}
         </p>
-        <img src={view_icon.src} alt="" className={styles.link_icon} />
+        <img src={view_icon.src} alt="view icon" className={styles.link_icon} />
       </Link>
     </>
   );
