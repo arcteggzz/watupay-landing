@@ -4,7 +4,7 @@ This is a mini application created for the Watupay-Frontend test interview. The 
 
 ## HOW TO RUN ON LOCAL ENVIRONMENT
 
-Step 1: Clone the repository from github.com.
+Step 1: Clone the repository from github.com. Ensure that you are on the main branch when you clone the repository.
 
 ```bash
 git clone <paste repository link from github>
